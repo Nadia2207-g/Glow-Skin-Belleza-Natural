@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3ac8a;
+    color: #fefefe;
+    text-align: center;
+}
+
+header {
+    background-color: #db8854;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.seccion {
+    padding: 50px 20px;
+}
+
+.imagen-principal {
+    width: 60%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.producto {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 250px;
+}
+
+.producto img {
+    width: 100%; 
+    max-width: 200px; 
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin: 10px 0 5px;
+    font-size: 1.3em;
+    color: #5f4f63;
+}
+
+.producto p {
+    font-size: 1em;
+    color: #7a6a80;
+}
+
+/* Ajuste de tamaño para el carrusel */
+.carousel-inner .carousel-item img {
+    width: 100%; /* Las imágenes ocupan el 100% del ancho disponible */
+    max-height: 300px; /* Limita la altura máxima de las imágenes */
+    object-fit: cover; /* Recorta las imágenes si es necesario para llenar el contenedor */
+    margin: 0 auto; /* Centra las imágenes si es necesario */
+}
+
+
+/* Galería de imágenes */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #e67935;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e09c72;
+}
+
+/* Pie de página */
+footer {
+    background-color: #db8854;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 0.9em;
+}
